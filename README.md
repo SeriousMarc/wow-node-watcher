@@ -46,7 +46,7 @@ Edit the `CONFIG` block at the top of `watcher.py`:
 | `MONITOR_INDEX` | `0` | Monitor to capture. `0` = primary. Set to `None` to list monitors interactively at startup. |
 | `TEMPLATE_BASE_WIDTH` | `2560` | Physical pixel width of the monitor when the template was captured. Common: `1920` (1080p), `2560` (1440p), `3840` (4K). |
 | `ROI` | — | Region to watch `(left, top, right, bottom)` in physical pixels at `TEMPLATE_BASE_WIDTH` resolution. Auto-scales to the current monitor on startup. |
-| `MATCH_THRESHOLD` | `0.8` | Match confidence `0.0–1.0`. Lower if detections are missed; raise to reduce false positives. |
+| `MATCH_THRESHOLD` | `0.9` | Match confidence `0.0–1.0`. Lower if detections are missed; raise to reduce false positives. |
 | `HIT_FRAMES_TO_CONFIRM` | `1` | Consecutive frames a match must be present before alerting. |
 | `MISS_FRAMES_TO_CLEAR` | `12` | Consecutive frames a match must be absent before re-arming (~0.5 s at 24 FPS). |
 | `NMS_DIST_FRAC` | `0.5` | Fraction of template size used as the suppression radius for duplicate matches. |
