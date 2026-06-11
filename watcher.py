@@ -32,7 +32,7 @@ ROI = (
 )
 
 # Path to the template image. Resolves relative to this script's directory.
-TEMPLATE_PATH = Path(__file__).parent / "symbol_template.png"
+TEMPLATE_PATH = Path(__file__).parent / "assets" / "symbol_template.png"
 
 MATCH_THRESHOLD = 0.9  # 0..1 — lower if missing detections, raise to reduce false positives
 

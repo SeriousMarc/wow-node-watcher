@@ -32,10 +32,10 @@ The template is a tight crop of the node indicator icon as it appears on your di
 
 1. Wait until the node indicator is visible on screen
 2. Use Snipping Tool (`Win+Shift+S`) to crop tightly around the icon — no padding
-3. Save as `symbol_template.png` in the project root
+3. Save as `assets/symbol_template.png` in the project root
 4. Set `TEMPLATE_BASE_WIDTH` in `watcher.py` to your monitor's physical pixel width at capture time
 
-> `symbol_template.png` is excluded from version control — each user captures their own.
+> `assets/symbol_template.png` is excluded from version control — each user captures their own.
 
 ## Configuration
 

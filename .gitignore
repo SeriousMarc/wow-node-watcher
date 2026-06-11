@@ -3,7 +3,3 @@ __pycache__/
 *.py[cod]
 *.pyo
 .venv/
-
-# Project-specific — capture your own template, don't commit game assets
-symbol_template.png
-debug_roi.png
